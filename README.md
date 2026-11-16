@@ -1,6 +1,6 @@
 ![Sell this pen на Авито](assets/cover.png)
 
-# Avito
+# Avito-Skill
 
 **Продай эту ручку. Или всё, что давно занимает место.**
 

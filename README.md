@@ -4,15 +4,15 @@
 
 **Продай эту ручку. Или всё, что давно занимает место.**
 
-Продавай свои вещи, смотри, что пишут люди в личных сообщениях, и ищи другие товары на Авито.
+Продавай свои вещи, смотри, что пишут люди в личных сообщениях, ищи другие товары на Авито.
 
 Для продажи пришли фото и цену. Для поиска назови вещь и город.
 
 ## Как использовать
 
-### 1. Установи и войди
+### 1. Установка
 
-Скажи Codex или Claude Code:
+Скажи своему Codex или Claude Code:
 
 > Установи скилл avito из https://github.com/maddness/avito-skill и подключи мой аккаунт Авито.
 
@@ -30,25 +30,8 @@
 
 > Найди Zippo в Москве до 5 000 ₽.
 
-Нужны Node.js 22+ и Chrome. Платежи и платные услуги не поддерживаются.
-
-<a id="установка-командами"></a>
-<details>
-<summary>Установка командами</summary>
-
-Для Claude Code на macOS/Linux:
-
-```bash
-git clone https://github.com/maddness/avito-skill.git "$HOME/.claude/skills/avito"
-node "$HOME/.claude/skills/avito/scripts/avito.mjs" auth login
-```
-
-Для Codex замени `.claude/skills` на `.agents/skills`.
-
-</details>
+Нужны Node.js 22+ и Chrome. Платежи и платные услуги не поддерживаются. Пока.
 
 На VM нужен приватный доступ к браузеру. [Вход и видеопроверка](references/authentication.md) · [Настройка сессии](references/setup.md).
 
 [Возможности и проверки перед выпуском](tests/README.md).
-
-Код и текстовая документация — [MIT](LICENSE).

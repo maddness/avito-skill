@@ -1,0 +1,11 @@
+{
+  "title": "Название реального товара",
+  "description": "Подтверждённые характеристики, состояние, дефекты и комплект. Самовывоз: город и улица.",
+  "price_rub": 1500,
+  "condition": "used",
+  "category_choice": "ID_FROM_CATEGORY_FIND",
+  "attributes": {},
+  "photos": ["/absolute/path/to/owner-photo.jpg"],
+  "location": {"query": "Москва, улица Лесная", "precision": "street"},
+  "delivery": {"enabled": false}
+}
